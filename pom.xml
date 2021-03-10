@@ -14,7 +14,7 @@
     <name>cms</name>
     <description>CMS project for Spring Boot</description>
     <properties>
-        <java.version>11</java.version>
+        <java.version>14</java.version>
     </properties>
     <dependencies>
         <dependency>
@@ -52,13 +52,7 @@
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>3.5.1</version>
-                  <configuration>
-                      <source>1.8</source>
-                      <target>1.8</target>
-                  </configuration>
-     
+                <artifactId>spring-boot-maven-plugin</artifactId>    
             </plugin>
         </plugins>
     </build>
