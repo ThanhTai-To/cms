@@ -15,6 +15,9 @@
     <description>CMS project for Spring Boot</description>
     <properties>
         <java.version>11</java.version>
+        <sonar.projectKey>ThanhTai-To_cms</sonar.projectKey>
+        <sonar.organization>thanhtai-to</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
     <dependencies>
         <dependency>
